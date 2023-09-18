@@ -1,0 +1,122 @@
+#uncover{
+    min-height: 60vh;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    height: 90vh;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.435)70%, #4848487c 100%); */
+    caret-color: transparent;
+  }
+  .uncover-s {
+      position: relative;
+      height: 100vh;
+      margin: 0 auto;
+      z-index: 1;
+      padding: 5vh;
+      flex-grow: 1;
+    }
+    .unc-container {
+      display: flex;
+      margin: 0 auto;
+      max-width: 1300px;
+      z-index: 1;
+    }
+    .un-img {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        text-align: left;
+        z-index: 3;
+      } 
+    .unc-image {
+        width: 300px;
+        max-width: 300px;
+        object-fit: contain;
+      }
+    
+    
+    .unc-content {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      float: right;
+      font-family: 'Inter';
+      font-style: normal;
+      position: relative;
+      height: 90vh;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 48px;
+      text-align: justify;
+      color: rgba(0, 0, 0, 0.83);
+      -webkit-text-stroke: 1px #0f2483;
+    }
+    .unc-content h1:nth-of-type(1) {
+        color: #1ca4df;
+      }
+      
+      .unc-content h1:nth-of-type(2) {
+        color: #1ca4df;
+      }
+      
+      .unc-content h1:nth-of-type(3) {
+        color: #fb8484;
+        font-size: 30px;
+      }
+      .unc-content a {
+        color: #fb8484;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.83);
+        -webkit-text-stroke: 1.2px #0f2483;
+      }
+      .unc-content a:hover {
+        color: #fb8484;
+        font-size: 30px;
+        font-weight: 420;
+      -webkit-text-stroke: 0px #0f2483;
+      }
+  
+    .uncover { 
+      position: absolute;
+      text-align: justify;
+      color: #1ca5df1c;
+      -webkit-text-stroke: 0px #B79726;
+      z-index: 0;
+    }
+   
+    #uncover1 { 
+      font-weight: 800;
+      font-size: 250px;
+      line-height: 303px;
+      filter: blur(7px);
+      z-index: 0;
+      bottom: 78%;
+      left: 15%;
+    }
+     #uncover2 { 
+      font-weight: 700;
+      font-size: 120px;
+      line-height: 303px;
+      filter: blur(9px);
+      z-index: 0;
+      bottom: 65%;
+      left: 60%;
+    }
+    #uncover3 { 
+        font-weight: 650;
+        font-size: 150PX;
+        line-height: 303px;
+        filter: blur(10px);
+        z-index: 0;
+        bottom: 55%;
+        left: 35%;
+      }
+      #uncover4 { 
+        font-weight: 1000;
+        font-size: 140px;
+        line-height: 303px;
+        filter: blur(5px);
+        z-index: 0;
+        bottom: 43%;
+        left: 45%;
+      } 

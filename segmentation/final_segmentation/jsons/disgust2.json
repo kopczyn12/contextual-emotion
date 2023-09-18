@@ -1,0 +1,233 @@
+{
+    "_via_settings": {
+        "ui": {
+            "annotation_editor_height": 25,
+            "annotation_editor_fontsize": 0.8,
+            "leftsidebar_width": 18,
+            "image_grid": {
+                "img_height": 80,
+                "rshape_fill": "none",
+                "rshape_fill_opacity": 0.3,
+                "rshape_stroke": "yellow",
+                "rshape_stroke_width": 2,
+                "show_region_shape": true,
+                "show_image_policy": "all"
+            },
+            "image": {
+                "region_label": "__via_region_id__",
+                "region_color": "__via_default_region_color__",
+                "region_label_font": "10px Sans",
+                "on_image_annotation_editor_placement": "NEAR_REGION"
+            }
+        },
+        "core": {
+            "buffer_size": 18,
+            "filepath": {},
+            "default_filepath": ""
+        },
+        "project": {
+            "name": "ann_disgust2"
+        }
+    },
+    "_via_img_metadata": {
+        "disgust2.png66083": {
+            "filename": "disgust2.png",
+            "size": 66083,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            365,
+                            339,
+                            318,
+                            309,
+                            277,
+                            243,
+                            229,
+                            198,
+                            192,
+                            208,
+                            209,
+                            222,
+                            221,
+                            216,
+                            229,
+                            246,
+                            255,
+                            264,
+                            264,
+                            271,
+                            289,
+                            299,
+                            312,
+                            312,
+                            316,
+                            335,
+                            330,
+                            353,
+                            337,
+                            331,
+                            359,
+                            429,
+                            443,
+                            465,
+                            478,
+                            511,
+                            540,
+                            565,
+                            561,
+                            565,
+                            581,
+                            587,
+                            590,
+                            589,
+                            589,
+                            571,
+                            543,
+                            503,
+                            456,
+                            435,
+                            421,
+                            413,
+                            391
+                        ],
+                        "all_points_y": [
+                            22,
+                            32,
+                            47,
+                            48,
+                            45,
+                            39,
+                            39,
+                            48,
+                            69,
+                            93,
+                            110,
+                            138,
+                            161,
+                            169,
+                            189,
+                            201,
+                            221,
+                            229,
+                            247,
+                            253,
+                            252,
+                            257,
+                            265,
+                            282,
+                            293,
+                            299,
+                            303,
+                            309,
+                            318,
+                            333,
+                            341,
+                            351,
+                            345,
+                            347,
+                            354,
+                            365,
+                            365,
+                            342,
+                            331,
+                            329,
+                            328,
+                            321,
+                            307,
+                            293,
+                            276,
+                            252,
+                            227,
+                            183,
+                            123,
+                            77,
+                            50,
+                            40,
+                            25
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "head",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                }
+                
+            ],
+            "file_attributes": {
+                "caption": "",
+                "public_domain": "no",
+                "image_url": ""
+            }
+        }
+    },
+    "_via_attributes": {
+        "region": {
+            "name": {
+                "type": "text",
+                "description": "Name of the object",
+                "default_value": "not_defined"
+            },
+            "type": {
+                "type": "dropdown",
+                "description": "Category of object",
+                "options": {
+                    "bird": "Bird",
+                    "human": "Human",
+                    "cup": "Cup (object)",
+                    "unknown": "Unknown (object)"
+                },
+                "default_options": {
+                    "unknown": true
+                }
+            },
+            "image_quality": {
+                "type": "checkbox",
+                "description": "Quality of image region",
+                "options": {
+                    "blur": "Blurred region",
+                    "good_illumination": "Good Illumination",
+                    "frontal": "Object in Frontal View"
+                },
+                "default_options": {
+                    "good": true,
+                    "frontal": true,
+                    "good_illumination": true
+                }
+            }
+        },
+        "file": {
+            "caption": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            },
+            "public_domain": {
+                "type": "radio",
+                "description": "",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "default_options": {
+                    "no": true
+                }
+            },
+            "image_url": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            }
+        }
+    },
+    "_via_data_format_version": "2.0.10",
+    "_via_image_id_list": [
+        "disgust2.png66083"
+    ]
+}

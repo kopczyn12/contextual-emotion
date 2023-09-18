@@ -1,0 +1,147 @@
+#approach{
+  min-height: 60vh;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  height: 90vh;
+  caret-color: transparent;
+}
+.approach {
+    position: relative;
+    height: 100%;
+    margin-top: 0;
+    z-index: 1;
+    padding: 5vh;
+    flex-grow: 1;
+    background-image: linear-gradient(to bottom, rgba(235, 142, 142, 0), #dd7f7f62 20%, #dd7f7f5d 50%, rgba(235, 142, 142, 0));
+  
+  }
+  .app-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1300px;
+  }
+  
+  .app-container .texts {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: left;
+  } 
+  .app-content {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    float: right;
+  }
+  
+  .app-container .title {
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 4.8rem;
+    color: #1078A4;
+    word-wrap: break-word;
+  }
+  .app-container .subtitle {
+    color: #1ca4df;
+    font-size: 1.9rem;
+    font-weight: 500;
+  }
+  .rect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+    background: linear-gradient(0deg, #fb8484, #fe2828c6), #1DCDFE;
+    border-radius: 45px;
+    padding: 6vh 2vh 3vh;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
+    
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  .approach-image {
+    width: 100%;
+    max-width: 300px;
+    object-fit: contain;
+  }
+  .approach-img-desc {
+    color: #1078A4;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 2vh;
+    margin-left: 10px;
+    font-size: 1.8rem;
+  }
+  #mid {
+    margin-top: 15vh;
+    animation-name: moveUpDown;
+  }
+  #side {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    
+    animation-name: moveDownOne;
+  }
+  #left{
+    margin-top: 7.5vh;
+    margin-bottom: 7.5vh;
+    
+    animation-name: moveDown;
+  }
+    
+@keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    10% {
+        transform: translateY(0);
+      }
+    50% {
+      transform: translateY(-5vh);
+    }
+    90% {
+        transform: translateY(0);
+      }
+    100% {
+      transform: translateY(0);
+    }
+}
+@keyframes moveDown {
+    0% {
+      transform: translateY(0);
+    }
+    10% {
+        transform: translateY(0);
+      }
+    50% {
+      transform: translateY(2.5vh);
+    }
+    90% {
+        transform: translateY(0);
+      }
+    100% {
+      transform: translateY(0);
+    }
+}
+@keyframes moveDownOne {
+    0% {
+      transform: translateY(0);
+    }
+    10% {
+        transform: translateY(0);
+      }
+    50% {
+      transform: translateY(5vh);
+    }
+    90% {
+        transform: translateY(0);
+      }
+    100% {
+      transform: translateY(0);
+    }
+}

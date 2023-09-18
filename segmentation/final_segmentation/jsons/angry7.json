@@ -1,0 +1,570 @@
+{
+    "_via_settings": {
+        "ui": {
+            "annotation_editor_height": 25,
+            "annotation_editor_fontsize": 0.8,
+            "leftsidebar_width": 18,
+            "image_grid": {
+                "img_height": 80,
+                "rshape_fill": "none",
+                "rshape_fill_opacity": 0.3,
+                "rshape_stroke": "yellow",
+                "rshape_stroke_width": 2,
+                "show_region_shape": true,
+                "show_image_policy": "all"
+            },
+            "image": {
+                "region_label": "__via_region_id__",
+                "region_color": "__via_default_region_color__",
+                "region_label_font": "10px Sans",
+                "on_image_annotation_editor_placement": "NEAR_REGION"
+            }
+        },
+        "core": {
+            "buffer_size": 18,
+            "filepath": {},
+            "default_filepath": ""
+        },
+        "project": {
+            "name": "angry1"
+        }
+    },
+    "_via_img_metadata": {
+        "angry7.png146872": {
+            "filename": "angry7.png",
+            "size": 146872,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            382,
+                            361,
+                            361,
+                            367,
+                            376,
+                            381,
+                            417,
+                            453,
+                            481,
+                            487,
+                            483,
+                            473,
+                            465,
+                            436,
+                            415,
+                            402
+                        ],
+                        "all_points_y": [
+                            263,
+                            277,
+                            288,
+                            304,
+                            320,
+                            325,
+                            318,
+                            307,
+                            291,
+                            283,
+                            258,
+                            241,
+                            238,
+                            244,
+                            251,
+                            254
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "tire",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            219,
+                            221,
+                            208,
+                            205,
+                            202,
+                            194,
+                            186,
+                            178,
+                            170,
+                            156,
+                            144,
+                            152,
+                            169,
+                            165,
+                            176,
+                            196,
+                            210,
+                            222,
+                            229,
+                            232,
+                            240,
+                            253,
+                            250,
+                            257,
+                            277,
+                            284,
+                            274,
+                            265,
+                            257,
+                            251,
+                            248,
+                            270,
+                            264,
+                            288,
+                            298,
+                            314,
+                            325,
+                            313,
+                            311,
+                            303,
+                            278,
+                            267,
+                            290,
+                            302,
+                            312,
+                            295,
+                            289,
+                            267,
+                            260,
+                            254,
+                            255,
+                            254,
+                            235,
+                            226
+                        ],
+                        "all_points_y": [
+                            276,
+                            295,
+                            304,
+                            317,
+                            328,
+                            383,
+                            424,
+                            466,
+                            488,
+                            501,
+                            544,
+                            562,
+                            558,
+                            527,
+                            515,
+                            485,
+                            457,
+                            454,
+                            465,
+                            482,
+                            518,
+                            544,
+                            559,
+                            570,
+                            587,
+                            577,
+                            550,
+                            520,
+                            465,
+                            422,
+                            401,
+                            377,
+                            341,
+                            348,
+                            347,
+                            333,
+                            321,
+                            316,
+                            310,
+                            320,
+                            329,
+                            319,
+                            299,
+                            289,
+                            283,
+                            278,
+                            289,
+                            302,
+                            305,
+                            304,
+                            288,
+                            265,
+                            262,
+                            269
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "human",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            380,
+                            426,
+                            440,
+                            442,
+                            468,
+                            456,
+                            444,
+                            456,
+                            480,
+                            477,
+                            513,
+                            513,
+                            542,
+                            555,
+                            565,
+                            563,
+                            557,
+                            521,
+                            518,
+                            518,
+                            503,
+                            488,
+                            480,
+                            471,
+                            469,
+                            489,
+                            497,
+                            469,
+                            424,
+                            373
+                        ],
+                        "all_points_y": [
+                            566,
+                            549,
+                            526,
+                            496,
+                            485,
+                            473,
+                            470,
+                            442,
+                            435,
+                            395,
+                            435,
+                            457,
+                            440,
+                            452,
+                            453,
+                            472,
+                            485,
+                            513,
+                            527,
+                            540,
+                            524,
+                            526,
+                            535,
+                            542,
+                            565,
+                            570,
+                            580,
+                            592,
+                            590,
+                            574
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "fire",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            589,
+                            584,
+                            583,
+                            597,
+                            605,
+                            595,
+                            593,
+                            608,
+                            615,
+                            621,
+                            647,
+                            665,
+                            702,
+                            723,
+                            731,
+                            746,
+                            760,
+                            763,
+                            766,
+                            751,
+                            763,
+                            777,
+                            802,
+                            877,
+                            904,
+                            917,
+                            886,
+                            827,
+                            845,
+                            839,
+                            786,
+                            757,
+                            715,
+                            648,
+                            662,
+                            630,
+                            569
+                        ],
+                        "all_points_y": [
+                            476,
+                            473,
+                            447,
+                            451,
+                            443,
+                            420,
+                            404,
+                            393,
+                            377,
+                            344,
+                            336,
+                            332,
+                            346,
+                            383,
+                            409,
+                            428,
+                            426,
+                            417,
+                            393,
+                            377,
+                            345,
+                            337,
+                            327,
+                            362,
+                            375,
+                            408,
+                            434,
+                            465,
+                            477,
+                            484,
+                            450,
+                            432,
+                            480,
+                            477,
+                            497,
+                            499,
+                            498
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "fire",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            752,
+                            731,
+                            771,
+                            800,
+                            833,
+                            848,
+                            857,
+                            871,
+                            813,
+                            794,
+                            760
+                        ],
+                        "all_points_y": [
+                            444,
+                            471,
+                            505,
+                            520,
+                            544,
+                            546,
+                            532,
+                            505,
+                            477,
+                            455,
+                            440
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "tire",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            694,
+                            665,
+                            768,
+                            767,
+                            737,
+                            709,
+                            662,
+                            663
+                        ],
+                        "all_points_y": [
+                            499,
+                            495,
+                            522,
+                            504,
+                            485,
+                            482,
+                            479,
+                            487
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "tire",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            596,
+                            594,
+                            592,
+                            597,
+                            632,
+                            685,
+                            718,
+                            713,
+                            686,
+                            643,
+                            597,
+                            591
+                        ],
+                        "all_points_y": [
+                            520,
+                            522,
+                            513,
+                            533,
+                            528,
+                            529,
+                            529,
+                            514,
+                            503,
+                            500,
+                            501,
+                            507
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "tire",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                }
+            ],
+            "file_attributes": {
+                "caption": "",
+                "public_domain": "no",
+                "image_url": ""
+            }
+        }
+    },
+    "_via_attributes": {
+        "region": {
+            "name": {
+                "type": "text",
+                "description": "Name of the object",
+                "default_value": "not_defined"
+            },
+            "type": {
+                "type": "dropdown",
+                "description": "Category of object",
+                "options": {
+                    "bird": "Bird",
+                    "human": "Human",
+                    "cup": "Cup (object)",
+                    "unknown": "Unknown (object)"
+                },
+                "default_options": {
+                    "unknown": true
+                }
+            },
+            "image_quality": {
+                "type": "checkbox",
+                "description": "Quality of image region",
+                "options": {
+                    "blur": "Blurred region",
+                    "good_illumination": "Good Illumination",
+                    "frontal": "Object in Frontal View"
+                },
+                "default_options": {
+                    "good": true,
+                    "frontal": true,
+                    "good_illumination": true
+                }
+            }
+        },
+        "file": {
+            "caption": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            },
+            "public_domain": {
+                "type": "radio",
+                "description": "",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "default_options": {
+                    "no": true
+                }
+            },
+            "image_url": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            }
+        }
+    },
+    "_via_data_format_version": "2.0.10",
+    "_via_image_id_list": [
+        "angry7.png146872"
+    ]
+}

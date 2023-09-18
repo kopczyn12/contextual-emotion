@@ -1,0 +1,23 @@
+#!/bin/sh
+set -ue
+base="$HOME/.talon/.venv/bin"
+if [ -e "$base/.python" ] && [ -e "$base/.resources" ]; then
+    python=$(cat "$base/.python")
+    lib=$(cat "$base/.resources")/../lib
+
+    if [ -e "$python/bin/python3" ]; then
+        (
+            if [ -n "${LD_LIBRARY_PATH-}" ]; then
+                export LD_LIBRARY_PATH="$lib:$LD_LIBRARY_PATH"
+            else
+                export LD_LIBRARY_PATH="$lib"
+            fi
+            export PYTHONHOME="$python"
+            if "$python/bin/python3" -c ""; then
+                exec "$python/bin/python3" "$@"
+            fi
+            exit $?
+        ) && exit
+    fi
+fi
+exec python3 "$@"

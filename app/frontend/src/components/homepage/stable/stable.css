@@ -1,0 +1,43 @@
+#image-generator{
+  min-height: 50vh;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  caret-color: transparent;
+}
+#image-generator {
+  background-color: none;
+  padding: 50px;
+  text-align: center;
+}
+
+.image-generator-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-generator-content {
+  width: 45%;
+  margin-left: 10%;
+}
+
+.image-generator-content h1 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 48px;
+      color: #1ca4df;;
+      -webkit-text-stroke: 1px #0f2483;
+}
+
+.image-generator-img {
+  width: 35%;
+  margin-left: 10%;
+}
+
+.image-generator-img img {
+  max-width: 60%;
+}

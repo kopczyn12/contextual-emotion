@@ -1,0 +1,251 @@
+{
+    "_via_settings": {
+        "ui": {
+            "annotation_editor_height": 25,
+            "annotation_editor_fontsize": 0.8,
+            "leftsidebar_width": 18,
+            "image_grid": {
+                "img_height": 80,
+                "rshape_fill": "none",
+                "rshape_fill_opacity": 0.3,
+                "rshape_stroke": "yellow",
+                "rshape_stroke_width": 2,
+                "show_region_shape": true,
+                "show_image_policy": "all"
+            },
+            "image": {
+                "region_label": "__via_region_id__",
+                "region_color": "name",
+                "region_label_font": "10px Sans",
+                "on_image_annotation_editor_placement": "NEAR_REGION"
+            }
+        },
+        "core": {
+            "buffer_size": 18,
+            "filepath": {},
+            "default_filepath": ""
+        },
+        "project": {
+            "name": "suprise3"
+        }
+    },
+    "_via_img_metadata": {
+        "surprise3.png176814": {
+            "filename": "surprise3.png",
+            "size": 176814,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            973,
+                            985,
+                            988,
+                            985,
+                            1002,
+                            1034,
+                            1037,
+                            1041,
+                            1046,
+                            1072,
+                            1099,
+                            1127,
+                            1146,
+                            1143,
+                            1143,
+                            1167,
+                            1185,
+                            1190,
+                            1182,
+                            1191,
+                            1194,
+                            1201,
+                            1225,
+                            1227,
+                            1229,
+                            1226,
+                            1208,
+                            1198,
+                            1180,
+                            1166,
+                            1152,
+                            1155,
+                            1148,
+                            1157,
+                            1162,
+                            1127,
+                            1131,
+                            1139,
+                            1096,
+                            1094,
+                            1092,
+                            1098,
+                            1105,
+                            1113,
+                            1102,
+                            1092,
+                            1076,
+                            1076,
+                            1063,
+                            1064,
+                            1069,
+                            1073,
+                            1074,
+                            1000,
+                            988,
+                            1007,
+                            1023,
+                            1025,
+                            1023,
+                            963,
+                            957,
+                            953
+                        ],
+                        "all_points_y": [
+                            533,
+                            467,
+                            441,
+                            418,
+                            392,
+                            394,
+                            373,
+                            339,
+                            330,
+                            319,
+                            310,
+                            318,
+                            333,
+                            358,
+                            376,
+                            392,
+                            408,
+                            439,
+                            446,
+                            462,
+                            489,
+                            518,
+                            547,
+                            567,
+                            597,
+                            616,
+                            624,
+                            598,
+                            626,
+                            629,
+                            659,
+                            683,
+                            728,
+                            747,
+                            789,
+                            808,
+                            818,
+                            846,
+                            845,
+                            785,
+                            752,
+                            735,
+                            714,
+                            669,
+                            636,
+                            626,
+                            698,
+                            713,
+                            745,
+                            759,
+                            776,
+                            794,
+                            820,
+                            833,
+                            792,
+                            756,
+                            723,
+                            645,
+                            628,
+                            624,
+                            604,
+                            576
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "pennywise",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                }
+               
+            ],
+            "file_attributes": {
+                "caption": "",
+                "public_domain": "no",
+                "image_url": ""
+            }
+        }
+    },
+    "_via_attributes": {
+        "region": {
+            "name": {
+                "type": "text",
+                "description": "Name of the object",
+                "default_value": "not_defined"
+            },
+            "type": {
+                "type": "dropdown",
+                "description": "Category of object",
+                "options": {
+                    "bird": "Bird",
+                    "human": "Human",
+                    "cup": "Cup (object)",
+                    "unknown": "Unknown (object)"
+                },
+                "default_options": {
+                    "unknown": true
+                }
+            },
+            "image_quality": {
+                "type": "checkbox",
+                "description": "Quality of image region",
+                "options": {
+                    "blur": "Blurred region",
+                    "good_illumination": "Good Illumination",
+                    "frontal": "Object in Frontal View"
+                },
+                "default_options": {
+                    "good": true,
+                    "frontal": true,
+                    "good_illumination": true
+                }
+            }
+        },
+        "file": {
+            "caption": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            },
+            "public_domain": {
+                "type": "radio",
+                "description": "",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "default_options": {
+                    "no": true
+                }
+            },
+            "image_url": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            }
+        }
+    },
+    "_via_data_format_version": "2.0.10",
+    "_via_image_id_list": [
+        "surprise3.png176814"
+    ]
+}

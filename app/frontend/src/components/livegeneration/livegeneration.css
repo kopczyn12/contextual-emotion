@@ -1,0 +1,93 @@
+#livegen {
+    background: linear-gradient(rgba(255, 255, 255, 0.435) 0%, rgba(50, 158, 220, 0.53) 30%, #3b4962 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width:100vw;
+    height: 100%;
+    min-height:80vh;
+    caret-color: transparent;
+    padding: 20px;
+}
+.gen-con{
+    display: flex;
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 43px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 4px 1px 10px rgba(0, 0, 0, 1);
+    min-height: 600px;
+}
+.live-containere{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    flex-direction: column;
+  }
+  .radio-buttons {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: row;
+    height: 14%;
+    min-height: 60px;
+  }
+  
+  .radio-buttons label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 17%;
+    cursor: pointer;
+  }
+   
+  .radio-buttons input[type="radio"] {
+    margin: 5px;
+  }
+  .input-label {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+    flex-direction: row;
+    width: 98%;
+    height: 6%;
+    min-height: 35px;
+  }
+  .input-label input {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    padding-left: 5px;
+    border-radius: 4px;
+    border: solid 2px black;
+    caret-color: black;
+  }
+  .image-place {
+    display: flex;
+    margin: 0 auto;
+    width: 98%;
+    height: 78%;
+    min-height: 450px;
+    margin: 1%;
+    background-color: rgb(236, 236, 236);
+  }
+  .image-place img{
+    margin: 0 auto;
+    max-width: 512px;
+    max-height: 512px;
+  }
+  .button-generate{
+    height: 100%;
+    width: 30%;
+    font-weight: 400;
+    font-size:100%;
+    border-radius: 4px;
+    color: white;
+    background-image: linear-gradient(#2f2f2f 0%, #121212 53.65%);
+    transition: color 0.3s ease, background-image 0.3s ease, border 0.3s ease;
+  }
+  .button-generate:hover{
+    background-image: linear-gradient(#2f2f2f 0%, #242424 53.65%);
+  }

@@ -1,0 +1,486 @@
+{
+    "_via_settings": {
+        "ui": {
+            "annotation_editor_height": 25,
+            "annotation_editor_fontsize": 0.8,
+            "leftsidebar_width": 18,
+            "image_grid": {
+                "img_height": 80,
+                "rshape_fill": "none",
+                "rshape_fill_opacity": 0.3,
+                "rshape_stroke": "yellow",
+                "rshape_stroke_width": 2,
+                "show_region_shape": true,
+                "show_image_policy": "all"
+            },
+            "image": {
+                "region_label": "__via_region_id__",
+                "region_color": "__via_default_region_color__",
+                "region_label_font": "10px Sans",
+                "on_image_annotation_editor_placement": "NEAR_REGION"
+            }
+        },
+        "core": {
+            "buffer_size": 18,
+            "filepath": {},
+            "default_filepath": ""
+        },
+        "project": {
+            "name": "ann_sad4"
+        }
+    },
+    "_via_img_metadata": {
+        "sad4.png135238": {
+            "filename": "sad4.png",
+            "size": 135238,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            129,
+                            117,
+                            101,
+                            89,
+                            71,
+                            55,
+                            64,
+                            37,
+                            15,
+                            15,
+                            39,
+                            52,
+                            39,
+                            39,
+                            95,
+                            73,
+                            68,
+                            74,
+                            87,
+                            125,
+                            163,
+                            177,
+                            170,
+                            161,
+                            159,
+                            149,
+                            155,
+                            153,
+                            159,
+                            167,
+                            162,
+                            185,
+                            173,
+                            177,
+                            179,
+                            175,
+                            179,
+                            175,
+                            190,
+                            194,
+                            203,
+                            222,
+                            232,
+                            258,
+                            263,
+                            258,
+                            252,
+                            253,
+                            256,
+                            249,
+                            241,
+                            229,
+                            213,
+                            194,
+                            167,
+                            153,
+                            147,
+                            158,
+                            146,
+                            129,
+                            117,
+                            105,
+                            91,
+                            83,
+                            69,
+                            61,
+                            63,
+                            104,
+                            106,
+                            109,
+                            94,
+                            73,
+                            68,
+                            55,
+                            57,
+                            51,
+                            57,
+                            72,
+                            96,
+                            113,
+                            127,
+                            130,
+                            129,
+                            132,
+                            133
+                        ],
+                        "all_points_y": [
+                            221,
+                            225,
+                            230,
+                            223,
+                            221,
+                            233,
+                            245,
+                            264,
+                            255,
+                            320,
+                            337,
+                            355,
+                            441,
+                            471,
+                            473,
+                            445,
+                            408,
+                            371,
+                            345,
+                            327,
+                            315,
+                            302,
+                            353,
+                            357,
+                            367,
+                            385,
+                            397,
+                            410,
+                            426,
+                            443,
+                            452,
+                            449,
+                            411,
+                            397,
+                            378,
+                            365,
+                            359,
+                            355,
+                            305,
+                            309,
+                            311,
+                            306,
+                            295,
+                            303,
+                            301,
+                            287,
+                            279,
+                            268,
+                            251,
+                            255,
+                            277,
+                            281,
+                            298,
+                            291,
+                            289,
+                            291,
+                            297,
+                            301,
+                            309,
+                            307,
+                            297,
+                            296,
+                            295,
+                            299,
+                            298,
+                            298,
+                            304,
+                            302,
+                            310,
+                            314,
+                            322,
+                            337,
+                            341,
+                            321,
+                            308,
+                            290,
+                            275,
+                            267,
+                            270,
+                            274,
+                            276,
+                            269,
+                            255,
+                            242,
+                            237
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "hanged_man",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            739,
+                            738,
+                            731,
+                            721,
+                            712,
+                            706,
+                            701,
+                            695,
+                            691,
+                            686,
+                            681,
+                            675,
+                            665,
+                            661,
+                            669,
+                            679,
+                            693,
+                            709,
+                            724,
+                            738
+                        ],
+                        "all_points_y": [
+                            461,
+                            455,
+                            457,
+                            457,
+                            455,
+                            457,
+                            453,
+                            460,
+                            462,
+                            459,
+                            456,
+                            455,
+                            454,
+                            461,
+                            471,
+                            477,
+                            479,
+                            479,
+                            477,
+                            475
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "human",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            698,
+                            685,
+                            685,
+                            676,
+                            664,
+                            683,
+                            689,
+                            692,
+                            699,
+                            702,
+                            707,
+                            715,
+                            724,
+                            735,
+                            723,
+                            711,
+                            711,
+                            703
+                        ],
+                        "all_points_y": [
+                            409,
+                            413,
+                            424,
+                            436,
+                            449,
+                            453,
+                            458,
+                            459,
+                            448,
+                            449,
+                            453,
+                            450,
+                            454,
+                            453,
+                            439,
+                            433,
+                            417,
+                            410
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "human",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "polygon",
+                        "all_points_x": [
+                            349,
+                            264,
+                            285,
+                            283,
+                            325,
+                            365,
+                            392,
+                            431,
+                            555,
+                            647,
+                            669,
+                            667,
+                            659,
+                            656,
+                            665,
+                            681,
+                            681,
+                            693,
+                            707,
+                            714,
+                            715,
+                            723,
+                            725,
+                            719,
+                            737,
+                            724,
+                            512,
+                            467,
+                            463,
+                            420
+                        ],
+                        "all_points_y": [
+                            211,
+                            308,
+                            307,
+                            479,
+                            487,
+                            489,
+                            483,
+                            475,
+                            488,
+                            490,
+                            486,
+                            475,
+                            464,
+                            455,
+                            439,
+                            424,
+                            409,
+                            406,
+                            407,
+                            414,
+                            431,
+                            433,
+                            395,
+                            338,
+                            339,
+                            168,
+                            198,
+                            155,
+                            155,
+                            205
+                        ]
+                    },
+                    "region_attributes": {
+                        "name": "barn",
+                        "type": "unknown",
+                        "image_quality": {
+                            "good": true,
+                            "frontal": true,
+                            "good_illumination": true
+                        }
+                    }
+                }
+            ],
+            "file_attributes": {
+                "caption": "",
+                "public_domain": "no",
+                "image_url": ""
+            }
+        }
+    },
+    "_via_attributes": {
+        "region": {
+            "name": {
+                "type": "text",
+                "description": "Name of the object",
+                "default_value": "not_defined"
+            },
+            "type": {
+                "type": "dropdown",
+                "description": "Category of object",
+                "options": {
+                    "bird": "Bird",
+                    "human": "Human",
+                    "cup": "Cup (object)",
+                    "unknown": "Unknown (object)"
+                },
+                "default_options": {
+                    "unknown": true
+                }
+            },
+            "image_quality": {
+                "type": "checkbox",
+                "description": "Quality of image region",
+                "options": {
+                    "blur": "Blurred region",
+                    "good_illumination": "Good Illumination",
+                    "frontal": "Object in Frontal View"
+                },
+                "default_options": {
+                    "good": true,
+                    "frontal": true,
+                    "good_illumination": true
+                }
+            }
+        },
+        "file": {
+            "caption": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            },
+            "public_domain": {
+                "type": "radio",
+                "description": "",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "default_options": {
+                    "no": true
+                }
+            },
+            "image_url": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            }
+        }
+    },
+    "_via_data_format_version": "2.0.10",
+    "_via_image_id_list": [
+        "sad4.png135238"
+    ]
+}
